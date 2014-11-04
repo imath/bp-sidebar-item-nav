@@ -3,7 +3,7 @@ BP Sidebar Item nav
 
 Moves the Group's or Member's main nav into a sidebar Widget. You can also move the item's avatar in it. Here's a screenshot :
 
-<img src="https://farm6.staticflickr.com/5604/15518709659_d8954545e1.jpg" width="500" width="316" alt="Screen shot of 2015">
+<img src="https://farm6.staticflickr.com/5604/15518709659_d8954545e1_z.jpg" width="640" width="405" alt="Screen shot of 2015">
 
 Available in french and english.
 
