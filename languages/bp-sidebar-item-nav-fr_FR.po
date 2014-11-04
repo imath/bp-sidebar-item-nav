@@ -1,0 +1,107 @@
+# Copyright (C) 2014 BP Sidebar Item Nav
+# This file is distributed under the same license as the BP Sidebar Item Nav package.
+msgid ""
+msgstr ""
+"Project-Id-Version: BP Sidebar Item Nav 1.0.0-alpha\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/bp-sidebar-item-nav\n"
+"POT-Creation-Date: 2014-11-03 21:56:00+00:00\n"
+"PO-Revision-Date: 2014-11-03 23:06+0100\n"
+"Last-Translator: imath <mathchristo@yahoo.fr>\n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.9\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: bp-sidebar-item-nav.php:252
+msgid "Ouch!! Please upgrade to BuddyPress %s to use this widget!"
+msgstr ""
+"Aïe!! Merci de mettre à jour BuddyPress pour la version %s afin d&#39;"
+"utiliser ce widget !"
+
+#: bp-sidebar-item-nav.php:366
+msgid "Group logo of %s"
+msgstr "Illustration du groupe %s"
+
+#: includes/widget.php:27
+msgid ""
+"Displays BuddyPress item primary nav & avatar in the sidebar of your site."
+msgstr ""
+"Affiche la navigation principale des membres et des groupes ainsi que leurs "
+"avatars dans la sidebar de votre site."
+
+#: includes/widget.php:33
+msgid "(BuddyPress) Sidebar item nav"
+msgstr "(BuddyPress) Sidebar Nav Item"
+
+#: includes/widget.php:74
+msgid "%1$s&#39;s %2$s"
+msgstr "%2$s du %1$s"
+
+#: includes/widget.php:75
+msgid "Member"
+msgstr "membre"
+
+#: includes/widget.php:79
+msgid "%s&#39;s %s"
+msgstr "%s&#39;s %s"
+
+#: includes/widget.php:80
+msgid "Group"
+msgstr "groupe"
+
+#: includes/widget.php:152
+msgid "Navigation"
+msgstr "Navigation"
+
+#: includes/widget.php:166
+msgid "Title:"
+msgstr "Titre:"
+
+#: includes/widget.php:171
+msgid "Move avatar in sidebar"
+msgstr "Déplacer l&#39;avatar dans la sidebar"
+
+#: includes/widget.php:174
+msgid "Move member&#39;s nav in sidebar"
+msgstr "Déplacer la navigation du membre dans la sidebar"
+
+#: includes/widget.php:178
+msgid "Move group&#39;s nav in sidebar"
+msgstr "Déplacer la navigation du groupe dans la sidebar"
+
+#: templates/groups/single/group-header.php:15
+msgid "Group Admins"
+msgstr "Admins de groupe"
+
+#: templates/groups/single/group-header.php:24
+msgid "Group Mods"
+msgstr "Mods de groupe"
+
+#: templates/groups/single/group-header.php:50
+msgid "active %s"
+msgstr "actif  %s"
+
+#. Plugin Name of the plugin/theme
+msgid "BP Sidebar Item Nav"
+msgstr "BP Sidebar Item Nav"
+
+#. Plugin URI of the plugin/theme
+msgid "http://imathi.eu/tag/bp-sidebar-item-nav"
+msgstr "http://imathi.eu/tag/bp-sidebar-item-nav"
+
+#. Description of the plugin/theme
+msgid "Move BuddyPress item navs into the sidebar"
+msgstr ""
+"Déplacer la navigation des items BuddyPress (membres et groupes) dans la "
+"sidebar"
+
+#. Author of the plugin/theme
+msgid "imath"
+msgstr "imath"
+
+#. Author URI of the plugin/theme
+msgid "http://imathi.eu/"
+msgstr "http://imathi.eu/"

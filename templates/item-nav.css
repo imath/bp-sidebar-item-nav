@@ -1,0 +1,66 @@
+.buddypress_item_nav div.item-list-tabs ul li {
+	clear:right;
+}
+
+.buddypress_item_nav div.item-list-tabs ul li a,
+.buddypress_item_nav div.item-list-tabs ul li span {
+	display: block;
+	padding: 5px 10px;
+	text-decoration: none;
+}
+.buddypress_item_nav div.item-list-tabs ul li span {
+	float:right;
+}
+
+.buddypress_item_nav div.item-list-tabs ul li a span {
+	background: #eee;
+	border-radius: 50%;
+	border: 1px solid #ccc;
+	color: #999;
+	display: inline;
+	font-size: 70%;
+	margin-left: 2px;
+	padding: 3px 6px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.buddypress_item_nav div.item-list-tabs ul li.selected,
+.buddypress_item_nav div.item-list-tabs ul li.current {
+	background-color: #eee;
+}
+
+.buddypress_item_nav div.item-list-tabs ul li.selected a,
+.buddypress_item_nav div.item-list-tabs ul li.current a {
+	color: #555;
+	opacity: .8;
+	font-weight: bold;
+}
+.buddypress_item_nav div.item-list-tabs ul li.selected a span,
+.buddypress_item_nav div.item-list-tabs ul li.current a span,
+.buddypress_item_nav div.item-list-tabs ul li a:hover span {
+	background-color: #eee;
+}
+.buddypress_item_nav div.item-list-tabs ul li.selected a span,
+.buddypress_item_nav div.item-list-tabs ul li.current a span {
+	background-color: #fff;
+}
+
+
+.buddypress_item_nav #item-header-avatar {
+	width:100%;
+}
+
+.buddypress_item_nav #item-header-avatar a img {
+	display:block;
+	margin: 1em auto;
+}
+
+.buddypress_item_nav h2.user-nicename {
+	text-align: center;
+	margin-top:1em;
+}
+
+.buddypress_item_nav .widget-title {
+	margin-top:1.5em;
+}
