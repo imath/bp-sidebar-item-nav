@@ -71,12 +71,12 @@ class BP_Sidebar_Item_Nav_Widget extends WP_Widget {
 
 		if ( ! empty( $item_nav_args[ 'bpsbin_title' ] ) ) {
 			if ( ! empty( $item_nav_args[ 'bpsbin_member' ] ) && bp_is_user() ) {
-				$title = sprintf( esc_html__( '%1$s&#39;s %2$s', 'bp-sidebar-item-nav' ),
+				$title = sprintf( esc_html_x( '%1$s&#39;s %2$s', 'Member widget title', 'bp-sidebar-item-nav' ),
 					esc_html__( 'Member', 'bp-sidebar-item-nav' ),
 					esc_html( $item_nav_args[ 'bpsbin_title' ] )
 				);
 			} else if ( ! empty( $item_nav_args[ 'bpsbin_group' ] ) && bp_is_group() ) {
-				$title = sprintf( esc_html__( '%s&#39;s %s', 'bp-sidebar-item-nav' ),
+				$title = sprintf( esc_html_x( '%1$s&#39;s %2$s', 'Group widget title', 'bp-sidebar-item-nav' ),
 					esc_html__( 'Group', 'bp-sidebar-item-nav' ),
 					esc_html( $item_nav_args[ 'bpsbin_title' ] )
 				);
