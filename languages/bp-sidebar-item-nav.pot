@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: BP Sidebar Item Nav 1.0.0-alpha\n"
-"Report-Msgid-Bugs-To: http://wordpress.org/tag/bp-sidebar-item-nav\n"
-"POT-Creation-Date: 2014-11-03 21:56:00+00:00\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/bp-sidebar-item-nav\n"
+"POT-Creation-Date: 2014-12-11 09:05:33+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -29,6 +29,7 @@ msgid "(BuddyPress) Sidebar item nav"
 msgstr ""
 
 #: includes/widget.php:74
+msgctxt "Member widget title"
 msgid "%1$s&#39;s %2$s"
 msgstr ""
 
@@ -37,7 +38,8 @@ msgid "Member"
 msgstr ""
 
 #: includes/widget.php:79
-msgid "%s&#39;s %s"
+msgctxt "Group widget title"
+msgid "%1$s&#39;s %2$s"
 msgstr ""
 
 #: includes/widget.php:80
