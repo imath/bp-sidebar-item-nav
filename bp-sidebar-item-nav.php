@@ -138,9 +138,10 @@ class BP_Sidebar_Item_Nav_Loader {
 	private function setup_hooks() {
 		// Do things only if required BuddyPress version match and we're on root blog
 		if ( $this->version_check() && $this->is_root_site ) {
-			add_action( 'bp_register_theme_directory', array( $this,                        'register_template_dir' ) );
-			add_action( 'bp_widgets_init',             array( 'BP_Sidebar_Item_Nav_Widget', 'register_widget'       ) );
-			add_action( 'bp_enqueue_scripts',          array( $this,                        'enqueue_style'         ) );
+			add_action( 'bp_register_theme_directory', array( $this,                        'register_template_dir' )        );
+			add_action( 'bp_widgets_init',             array( 'BP_Sidebar_Item_Nav_Widget', 'register_widget'       )        );
+			add_action( 'bp_enqueue_scripts',          array( $this,                        'enqueue_style'         )        );
+			add_filter( 'bp_get_the_body_class',       array( $this,                        'body_class'            ), 10, 1 );
 
 		} else {
 			add_action( 'admin_notices', array( $this, 'admin_warning' ) );
@@ -232,6 +233,23 @@ class BP_Sidebar_Item_Nav_Loader {
 		}
 
 		return apply_filters( 'bp_sidebar_item_nav_template_dir', $this->tpl_dir );
+	}
+
+	/**
+	 * Adds a body class if the widget is used
+	 *
+	 * @package BP Sidebar Item Nav
+	 * @since   1.0
+	 *
+	 * @param  array $classes
+	 * @return array the body classes including plugin's ones if needed
+	 */
+	public function body_class( $classes = array() ) {
+		if ( $this->template_dir() ) {
+			$classes[] = 'bp-sidebar-item-nav';
+		}
+
+		return $classes;
 	}
 
 	/**
