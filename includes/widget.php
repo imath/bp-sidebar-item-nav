@@ -57,7 +57,12 @@ class BP_Sidebar_Item_Nav_Widget extends WP_Widget {
 	public function widget( $args, $instance ) {
 		$bp_sidebar_item_nav = bp_sidebar_item_nav_loader();
 
-		if ( ! bp_is_user() && ! bp_is_group() && bp_is_group_create() ) {
+		if ( ! bp_is_user() && ! bp_is_group() ) {
+			return;
+		}
+
+		// Specific case for group creation
+		if ( bp_is_group_create() ) {
 			return;
 		}
 

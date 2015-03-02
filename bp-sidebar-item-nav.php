@@ -208,7 +208,12 @@ class BP_Sidebar_Item_Nav_Loader {
 	 */
 	public function template_dir() {
 		// Don't change anything if widget is not active or not in a desired BuddyPress area
-		if ( ! bp_is_user() && ! bp_is_group() && ! $this->is_widget_active && bp_is_group_create() ) {
+		if ( ! bp_is_user() && ! bp_is_group() && ! $this->is_widget_active ) {
+			return false;
+		}
+
+		// Specific case for group creation
+		if ( bp_is_group_create() ) {
 			return false;
 		}
 
